@@ -1,0 +1,12 @@
+nums = {1,2,2,4}
+print(nums)
+nums.add(7)
+nums.add(5)
+nums.remove(1)
+print (f"new set is {nums}")
+
+a  = {3,4,7,5}
+print(f"Union operation: {nums|a}")
+print(f"Intersection operation: {nums&a}")
+print(f"Difference operation: {nums-a}")
+print(f"Symmetric Difference operation: {nums^a}")
