@@ -1,0 +1,8 @@
+a = int(input(" Guess a number "))
+x = 46
+print (f" The number I guessed is {x}")
+
+if a==x :
+    print(" We guessed the same number.")
+else:
+    print(" We both have different choices.")
