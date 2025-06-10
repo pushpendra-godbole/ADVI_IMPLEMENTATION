@@ -1,1 +1,8 @@
-
+for i in range (0, 15):
+    a = int(input(f"Guess random number {i+1} "))
+    if a>i:
+        continue
+    if a==i:
+        break
+    elif a< i:
+        print("Ha ha ! I choosen the bigger number")
