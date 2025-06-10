@@ -1,0 +1,9 @@
+a = []
+s = int(input(f"Enter the size of the list "))
+print("Tell the names of fruits you like")
+for i in range (0,s):
+    n = (input(f"{i+1} "))
+    a.append(n)
+
+print("So your fav fruits are :")
+print(a)
