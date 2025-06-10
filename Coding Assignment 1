@@ -1,0 +1,15 @@
+def max_product(var=[]):
+    var  = sorted(var)
+    print(f"{var}")
+    a = var[len(var) -1 ]
+    b = var[len(var) -2 ]
+    print (f"The max product of two elements of list is {a*b}")
+
+my_list = []
+n = int(input("No. of elements : "))
+
+for i in range (0,n):
+    num  = int (input(f"Enter the element {i+1} : "))
+    my_list.append(num)
+
+max_product(my_list)
