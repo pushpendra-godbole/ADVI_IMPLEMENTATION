@@ -1,0 +1,8 @@
+student = ("Pushpendra", 101, "Mechatronics") 
+
+print("Name:", student[0])        
+print("Roll No:", student[1])     
+
+print("Elements length:", len(student))    
+print(student.count("Pushpendra"))   
+print(student.index(101))            
