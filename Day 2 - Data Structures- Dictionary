@@ -1,0 +1,17 @@
+my_dict = {
+    "name": "Happy",
+    "age": 22,
+    "course": "Python"
+}
+
+print(my_dict["name"])      
+my_dict["email"] = "happy@gmail.com"
+
+my_dict["age"] = 23
+
+del my_dict["course"]
+
+print(f"Length: {len(my_dict)}")     
+
+for key, value in my_dict.items():
+    print(key, "→", value)
