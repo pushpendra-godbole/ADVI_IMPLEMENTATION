@@ -1,0 +1,7 @@
+with open("my.txt", "a") as my_file:
+    my_file.write("This is a new line.\n")
+    my_file.write("This line is added at the end.")
+
+with open("my.txt", "r") as file:
+    content = file.read()
+    print(content)
