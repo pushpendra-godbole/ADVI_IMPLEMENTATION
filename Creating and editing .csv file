@@ -1,0 +1,17 @@
+import csv
+
+heading  = ["Name", "Age", "Location"]
+rows = [
+    ["Pushpa" , 20, "Surat"],
+    ["Ankur", 15, "Ranchi"],
+    ["Siddhi", 9, "Bhopal"]
+]
+
+with open("students_data.csv", "a") as file:
+    writer = csv.writer(file)
+    writer.writerrow(heading)
+    writer.writerrows(rows)
+    
+with open("students_data.csv", "r") as file:
+    content = file.read()
+    print(content)
