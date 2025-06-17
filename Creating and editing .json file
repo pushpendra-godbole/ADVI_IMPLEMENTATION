@@ -1,0 +1,16 @@
+import json
+data = {
+    "name": "Pushpendra",
+    "age": 22,
+    "college": "Jabalpur Engineering College",
+    "skills": ["Python", "Arduino", "Matlab"]
+}
+with open("students.json", "w") as file:
+    json.dump(data, file, indent=4)
+with open("students.json", "r") as file:
+    content = file.read()
+
+data["skills"].append("C++")
+data["city"] = "Jabalpur"
+
+print(content)
